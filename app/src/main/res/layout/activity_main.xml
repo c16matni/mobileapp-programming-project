@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="215dp"
+        android:layout_height="148dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,9 +34,9 @@
 
         <Button
             android:id="@+id/aboutbutton"
-            android:layout_width="match_parent"
-            android:layout_height="77dp"
-            android:text="Button" />
+            android:layout_width="154dp"
+            android:layout_height="63dp"
+            android:text="About" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

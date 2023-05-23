@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".AboutPage">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="303dp"
+        android:layout_height="579dp"
+        android:text="@string/about_page"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="About page "
+            android:textSize="60sp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
