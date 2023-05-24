@@ -11,6 +11,7 @@
         android:layout_width="303dp"
         android:layout_height="579dp"
         android:text="@string/about_page"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -30,5 +31,6 @@
             android:text="About page "
             android:textSize="60sp" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

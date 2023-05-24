@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Project</string>
-    <string name="about_page">Denna appen är bygged för alla gräsälskare där ute,
-        från odlare och bönder till antusiaster och intreserade.
+    <string name="about_page">Denna app är byggd för alla gräsälskare där ute,
+        från odlare och bönder till entusiaster och intresserade.
         Denna app erbjuder en samling av de vanligaste typerna av gräs
-        så att vem som helt kan börja utväkla sitt intresse för gräs</string>
+        så att vem som helst kan börja utveckla sitt intresse för gräs</string>
 </resources>
