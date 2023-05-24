@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SecondActivity extends AppCompatActivity implements JsonTask.JsonTaskListener{
-    Gson gson = new Gson();
+
     private final String JSON_URL = "https://mobprog.webug.se/json-api?login=c16matni";
     ArrayList<RecyclerViewItem> list;
     RecyclerViewAdapter adapter;
@@ -22,13 +22,14 @@ public class SecondActivity extends AppCompatActivity implements JsonTask.JsonTa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
         new JsonTask(this).execute(JSON_URL);
     }
 
     @Override
     public void onPostExecute(String json) {
-        Log.d("c16matni", json);
-
+        Log.d("MainActivity", json);
+        Gson gson = new Gson();
         Type type = new TypeToken<List<RecyclerViewItem>>() {}.getType();
         list = gson.fromJson(json, type);
 
